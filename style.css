@@ -1,0 +1,48 @@
+
+.header {
+    background-color: #101010;
+    color: white;
+    padding: 20px 0;
+}
+
+.inner-header {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Логотип */
+.logo-container h1 {
+    margin: 0;
+}
+
+/* Навигация */
+.navigation {
+    list-style: none;
+    display: flex;
+}
+
+.navigation a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    background-color: #101010;
+}
+
+.navigation a:hover {
+    background-color: gray;
+    color: #101010;
+}
+
+/* Контент */
+.content {
+    padding: 20px;
+}
+
+
+img {
+    float: left;
+    margin-right: 20px;
+}
